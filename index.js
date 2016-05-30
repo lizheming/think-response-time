@@ -8,6 +8,7 @@ module.exports = function() {
       var app = new connect(http);
       var response = responseTime.apply(responseTime, args);
       app.use(response);
+      app.use(resolve);
     });
   }
 }
