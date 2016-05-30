@@ -1,0 +1,30 @@
+{
+  "name": "think-response-time",
+  "version": "1.0.0",
+  "description": "response time header middleware for thinkjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizheming/think-response-time.git"
+  },
+  "keywords": [
+    "node",
+    "thinkjs",
+    "response",
+    "time",
+    "header"
+  ],
+  "author": "lizheming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizheming/think-response-time/issues"
+  },
+  "homepage": "https://github.com/lizheming/think-response-time#readme",
+  "dependencies": {
+    "http-connect": "^0.1.4",
+    "response-time": "^2.3.1"
+  }
+}
