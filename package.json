@@ -1,6 +1,6 @@
 {
   "name": "think-response-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "response time header middleware for thinkjs",
   "main": "index.js",
   "scripts": {
