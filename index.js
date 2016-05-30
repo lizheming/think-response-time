@@ -1,7 +1,7 @@
 var connect = require('http-connect');
 var responseTime = require('response-time');
 
-module.export = function() {
+module.exports = function() {
   var args = arguments;
   return function(http) {
     return new Promise(function(resolve, reject) {
