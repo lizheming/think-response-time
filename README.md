@@ -1,5 +1,7 @@
 # think-response-time
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lizheming/think-response-time.svg)](https://greenkeeper.io/)
+
 Response time for ThinkJS.
 
 This module creates a middleware that records the response time for requests in ThinkJS. The "response time" is defined here as the elapsed time from when a request enters this middleware to when the headers are written out to the client.
